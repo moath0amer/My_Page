@@ -278,6 +278,24 @@ transform: scale(1.1);
     padding: 0 12px 0 0;
 }
 
+.contact-form-card form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-card input,
+.contact-form-card textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form-card button{
+    align-self: flex-start;
+}
+
 
 @media (max-width:1023px){
     header {
